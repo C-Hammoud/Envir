@@ -38,4 +38,4 @@ Source Word/PDF files in this folder are the **copy reference**; keep JSON align
 1. Edit [`public/content.json`](../public/content.json) in the repo, **or**
 2. Use **`/admin`** in development: save draft, export `content.json`, replace `public/content.json`, commit, deploy.
 
-The **Admin** link is hidden in production builds; open `/admin` directly on the deployed URL if needed (consider protecting that URL on the host).
+The main site does not link to admin — open **`/admin`** on the deployed URL when you need it (consider protecting that path on the host).

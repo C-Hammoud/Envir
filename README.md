@@ -14,12 +14,10 @@ React (Vite) site for **Envir Consultancy**: content comes from [`public/content
 ## Content workflow
 
 - **Published content:** edit `public/content.json` and redeploy (or replace `content.json` on the host without rebuilding if your host allows).
-- **Admin UI:** open [`/admin`](http://localhost:5173/admin) while developing.
+- **Admin UI:** not linked from the main site — open **`/admin`** in the address bar (e.g. `https://yoursite.github.io/repo/admin` on GitHub Pages).
   - **Save draft** — stores JSON in `localStorage` for this browser.
   - **Export content.json** — downloads the file; replace `public/content.json` in Git and commit.
   - **Preview draft** — opens the home page with `?preview=1` and loads the draft from `localStorage`.
-
-The header **Admin** link is shown only in development (`import.meta.env.PROD === false`).
 
 ## GitHub Pages (project site)
 
