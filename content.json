@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "siteName": "Envir Consultancy",
+    "title": "Envir Consultancy | MEP & Fire Engineering",
+    "description": "Mechanical, electrical, plumbing, and fire-fighting design for construction — precision engineering for built environments.",
+    "logoText": "Envir",
+    "nav": [
+      { "label": "Vision", "href": "#vision" },
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero-main",
+      "type": "hero",
+      "eyebrow": "A.E.C. · Engineering Consultants",
+      "headline": "MEP & fire systems engineered for performance and compliance",
+      "subheadline": "Integrated mechanical, electrical, plumbing, and fire-fighting design aligned with construction programmes and authority requirements.",
+      "primaryCta": { "label": "View projects", "href": "#projects" },
+      "secondaryCta": { "label": "Our services", "href": "#services" },
+      "metrics": [
+        { "label": "Disciplines", "value": "MEP + Fire" },
+        { "label": "Focus", "value": "Design & coordination" },
+        { "label": "Sector", "value": "Construction" }
+      ]
+    },
+    {
+      "id": "vision-mission",
+      "type": "visionMission",
+      "title": "Vision & mission",
+      "visionTitle": "Vision",
+      "visionBody": "To deliver reliable, coordinated MEP and fire engineering that helps clients build safer, more efficient facilities — from concept through construction documentation.",
+      "missionTitle": "Mission",
+      "missionBody": "We provide professional design services, clear technical communication, and responsive coordination with architects, contractors, and authorities so projects move forward with confidence."
+    },
+    {
+      "id": "intro-mep",
+      "type": "introductory",
+      "title": "MEP & fire design partner",
+      "lead": "Envir Consultancy supports developers, architects, and contractors with specialist engineering for building services and life-safety systems.",
+      "paragraphs": [
+        "Our work spans load calculations, routing and riser strategy, equipment selection, and fire-fighting system layouts that integrate with architectural and structural constraints.",
+        "We aim for concise deliverables, review cycles that respect site deadlines, and documentation suitable for tender and authority submission."
+      ],
+      "highlights": [
+        "HVAC & mechanical distribution",
+        "Electrical power and lighting concepts",
+        "Plumbing & drainage",
+        "Fire detection, alarm, and suppression coordination"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "title": "Core services",
+      "subtitle": "Integrated building services design for residential, commercial, and industrial projects.",
+      "items": [
+        {
+          "title": "Mechanical (HVAC)",
+          "description": "Ventilation strategy, heating and cooling loads, duct routing, and plant room coordination."
+        },
+        {
+          "title": "Electrical",
+          "description": "Power distribution, lighting design support, and panel schedules aligned with load requirements."
+        },
+        {
+          "title": "Plumbing",
+          "description": "Water supply, sanitary layouts, and drainage coordination with architecture and structure."
+        },
+        {
+          "title": "Fire fighting & life safety",
+          "description": "Sprinkler/hydrant routing concepts, fire pump requirements, and interface with fire alarm design."
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "title": "About us",
+      "body": [
+        "We operate as engineering consultants in the construction industry, bridging design intent with executable MEP and fire packages.",
+        "Our team collaborates closely with project stakeholders to reduce clashes, clarify specifications, and maintain a single coordinated services narrative across disciplines."
+      ],
+      "bullets": [
+        "Coordination-first mindset",
+        "Authority-aware submissions",
+        "Clear drawing and specification language"
+      ],
+      "caption": "Consultancy · Coordination · Compliance"
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "title": "Selected projects",
+      "subtitle": "Representative scopes — update names and details in content.json as your portfolio grows.",
+      "items": [
+        {
+          "id": "proj-mixed-use",
+          "name": "Mixed-use tower — MEP concept",
+          "sector": "Commercial",
+          "location": "—",
+          "scope": "Riser strategy, HVAC zoning, electrical load blocks",
+          "year": "—",
+          "image": "/assets/projects/placeholder-cover.svg",
+          "details": {
+            "description": "Concept-stage MEP coordination for a high-rise core and shell programme. Work included riser strategy, HVAC zoning assumptions, and electrical load blocks for landlord and tenant fit-out splits.\n\nDeliverables focused on clash reduction with architecture and structure prior to tender.",
+            "images": [
+              "/assets/projects/gallery-sample.svg",
+              "/assets/projects/gallery-sample.svg"
+            ]
+          }
+        },
+        {
+          "id": "proj-residential",
+          "name": "Residential compound — fire & plumbing",
+          "sector": "Residential",
+          "location": "—",
+          "scope": "Fire fighting routing, domestic water distribution",
+          "year": "—",
+          "image": "/assets/projects/placeholder-cover.svg"
+        },
+        {
+          "id": "proj-industrial",
+          "name": "Industrial facility — power & mechanical",
+          "sector": "Industrial",
+          "location": "—",
+          "scope": "Plant electrical, ventilation for process areas",
+          "year": "—",
+          "details": {
+            "description": "Details-only example: no card image, but a dialog with metadata and optional gallery below.",
+            "images": ["/assets/projects/gallery-sample.svg"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "title": "Contact",
+      "subtitle": "Tell us about your programme — we’ll respond with next steps.",
+      "email": "hello@envir-consultancy.example",
+      "phone": "+00 000 000 0000",
+      "address": "—",
+      "formLabels": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Project summary",
+        "submit": "Send message"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "tagline": "MEP & fire engineering consultancy",
+      "columns": [
+        {
+          "heading": "Sections",
+          "links": [
+            { "label": "Vision", "href": "#vision" },
+            { "label": "Services", "href": "#services" },
+            { "label": "Projects", "href": "#projects" }
+          ]
+        },
+        {
+          "heading": "Legal",
+          "links": [{ "label": "Privacy", "href": "#" }]
+        }
+      ],
+      "copyright": "© Envir Consultancy. All rights reserved."
+    }
+  ]
+}
