@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --font-family-sans: var(--font-sans);
+  --color-surface: #f8fafc;
+  --color-surface-muted: #f1f5f9;
+  --color-accent: #0d9488;
+  --color-accent-bright: #14b8a6;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-grid-shift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 64px 64px;
+  }
+}
+
+@keyframes card-modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes backdrop-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans;
+    font-family: var(--font-sans);
+  }
+  .dialog-surface::backdrop {
+    background: rgb(15 23 42 / 0.35);
+    backdrop-filter: blur(4px);
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fade-up 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-up {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .hero-stagger-1 {
+    animation-delay: 0.06s;
+  }
+  .hero-stagger-2 {
+    animation-delay: 0.12s;
+  }
+  .hero-stagger-3 {
+    animation-delay: 0.18s;
+  }
+  .hero-stagger-4 {
+    animation-delay: 0.24s;
+  }
+  .hero-stagger-5 {
+    animation-delay: 0.3s;
+  }
+  .hero-bg-motion {
+    animation: hero-grid-shift 48s linear infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-bg-motion {
+      animation: none;
+    }
+  }
+  .animate-card-modal {
+    animation: card-modal-in 0.22s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-card-modal {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .animate-backdrop-in {
+    animation: backdrop-fade-in 0.2s ease-out both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-backdrop-in {
+      animation: none;
+      opacity: 1;
+    }
+  }
+}
