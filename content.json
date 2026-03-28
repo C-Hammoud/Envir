@@ -3,7 +3,7 @@
     "siteName": "Envir Consultancy",
     "title": "Envir Consultancy | MEP & Fire Engineering",
     "description": "Mechanical, electrical, plumbing, and fire-fighting design for construction — precision engineering for built environments.",
-    "logoText": "Envir",
+    "logoText": "A.E.C.",
     "nav": [
       {
         "label": "Vision",
@@ -103,6 +103,10 @@
         {
           "title": "Fire fighting & life safety",
           "description": "Sprinkler/hydrant routing concepts, fire pump requirements, and interface with fire alarm design."
+        },
+        {
+          "title": "Environmental ",
+          "description": "water and westwater treatment plants "
         }
       ]
     },
@@ -178,6 +182,21 @@
             "description": "Details — description",
             "images": []
           }
+        },
+        {
+          "name": "Origami Project",
+          "image": "/assets/projects/origami01.png",
+          "id": "origami",
+          "sector": "Construction",
+          "location": "Cameroun",
+          "scope": "Modeling Design",
+          "year": "2025",
+          "details": {
+            "description": "four blocks on one platform",
+            "images": [
+              "/assets/projects/origami02.png"
+            ]
+          }
         }
       ]
     },
@@ -187,8 +206,8 @@
       "title": "Contact",
       "subtitle": "Tell us about your programme — we’ll respond with next steps.",
       "email": "hello@envir-consultancy.example",
-      "phone": "+00 000 000 0000",
-      "address": "—",
+      "phone": "+1234567890",
+      "address": "Tripoli",
       "formLabels": {
         "name": "Name",
         "email": "Email",
