@@ -21,13 +21,9 @@ React (Vite) site for **Envir Consultancy**: content comes from [`public/content
 
 ## GitHub Pages (project site)
 
-If the site is served at `https://<user>.github.io/<repo>/`:
-
-1. Set **`VITE_BASE=/<repo>/`** when building (e.g. in CI or a `.env` file — see [`.env.example`](.env.example)).
-2. Build: `npm run build`.
-3. Publish the contents of **`dist/`** (e.g. GitHub Actions `actions/upload-pages-artifact` or the **gh-pages** branch).
-
-For a **user/org site** at `https://<user>.github.io/`, use the default base `/` (no `VITE_BASE`).
+1. In [`vite.config.ts`](vite.config.ts), set **`base`** to `/<your-repo>/` (trailing slash). This repo uses **`/Envir/`**; use **`'/'`** if the site is at `https://<user>.github.io/` with no repo path.
+2. **`npm run build`** copies **`index.html` → `404.html`** so direct URLs like **`/admin`** work on GitHub Pages.
+3. Publish **`dist/`** (e.g. `npm run deploy` / `gh-pages`).
 
 ## Docs
 
