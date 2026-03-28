@@ -5,11 +5,26 @@
     "description": "Mechanical, electrical, plumbing, and fire-fighting design for construction — precision engineering for built environments.",
     "logoText": "Envir",
     "nav": [
-      { "label": "Vision", "href": "#vision" },
-      { "label": "Services", "href": "#services" },
-      { "label": "About", "href": "#about" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Vision",
+        "href": "#vision"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "sections": [
@@ -19,12 +34,27 @@
       "eyebrow": "A.E.C. · Engineering Consultants",
       "headline": "MEP & fire systems engineered for performance and compliance",
       "subheadline": "Integrated mechanical, electrical, plumbing, and fire-fighting design aligned with construction programmes and authority requirements.",
-      "primaryCta": { "label": "View projects", "href": "#projects" },
-      "secondaryCta": { "label": "Our services", "href": "#services" },
+      "primaryCta": {
+        "label": "View projects",
+        "href": "#projects"
+      },
+      "secondaryCta": {
+        "label": "Our services",
+        "href": "#services"
+      },
       "metrics": [
-        { "label": "Disciplines", "value": "MEP + Fire" },
-        { "label": "Focus", "value": "Design & coordination" },
-        { "label": "Sector", "value": "Construction" }
+        {
+          "label": "Disciplines",
+          "value": "MEP + Fire"
+        },
+        {
+          "label": "Focus",
+          "value": "Design & coordination"
+        },
+        {
+          "label": "Sector",
+          "value": "Construction"
+        }
       ]
     },
     {
@@ -131,7 +161,22 @@
           "year": "—",
           "details": {
             "description": "Details-only example: no card image, but a dialog with metadata and optional gallery below.",
-            "images": ["/assets/projects/gallery-sample.svg"]
+            "images": [
+              "/assets/projects/gallery-sample.svg"
+            ]
+          }
+        },
+        {
+          "name": "New project04",
+          "image": "/assets/projects/placeholder-cover.svg",
+          "id": "project04",
+          "sector": "New project test sector",
+          "location": "outside the earth",
+          "scope": "Spacex",
+          "year": "2099",
+          "details": {
+            "description": "Details — description",
+            "images": []
           }
         }
       ]
@@ -159,14 +204,28 @@
         {
           "heading": "Sections",
           "links": [
-            { "label": "Vision", "href": "#vision" },
-            { "label": "Services", "href": "#services" },
-            { "label": "Projects", "href": "#projects" }
+            {
+              "label": "Vision",
+              "href": "#vision"
+            },
+            {
+              "label": "Services",
+              "href": "#services"
+            },
+            {
+              "label": "Projects",
+              "href": "#projects"
+            }
           ]
         },
         {
           "heading": "Legal",
-          "links": [{ "label": "Privacy", "href": "#" }]
+          "links": [
+            {
+              "label": "Privacy",
+              "href": "#"
+            }
+          ]
         }
       ],
       "copyright": "© Envir Consultancy. All rights reserved."
